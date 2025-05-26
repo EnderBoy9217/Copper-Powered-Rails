@@ -1,0 +1,33 @@
+{
+  "enders-leathersmelting:recipes/misc/leather_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2025-05-25 22:45:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-05-25 22:45:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-05-25 22:45:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-05-25 22:45:25 -0400"
+    },
+    "done": false
+  },
+  "enders-leathersmelting:recipes/misc/smoker_leather_from_rotten_flesh": {
+    "criteria": {
+      "has_rotten_flesh": "2025-05-25 22:45:38 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
