@@ -1,29 +1,28 @@
 {
 	"schemaVersion": 1,
-	"id": "enders-leathersmelting",
+	"id": "enders-copperrails",
 	"version": "1.0.0",
-	"name": "Enders Leather Smelting",
-	"description": "A simple mod that allows rotten flesh to be smelted into leather.",
+	"name": "Enders Copper Rails",
+	"description": "A simple mod that allows Powered Rails to be made from copper.",
 	"authors": [
-		"Me!"
+		"Enderboy9217"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "GPL-3.0",
-	"icon": "assets/enders-leathersmelting/icon.png",
+	"icon": "assets/enders-copperrails/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "com.enderboy9217.leathersmelting.EndersLeatherSmelting"
+          "com.enderboy9217.copperrails.EndersCopperRails"
 		],
 		"fabric-datagen": [
-			"com.enderboy9217.leathersmelting.EndersLeatherSmeltingDataGenerator"
+			"com.enderboy9217.copperrails.EndersCopperRailsDataGenerator"
 		]
 	},
 	"mixins": [
-		"enders-leathersmelting.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",
